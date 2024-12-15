@@ -1,6 +1,7 @@
 # nn_study
 
-- PyTorch 2.5.0 Workaround
+- PyTorch 2.5.0 + mmengine 0.10.5 Workaround  
+  /mmengine/registry/registry.py
 ```python
     def _register_module(self,
                          module: Type,
